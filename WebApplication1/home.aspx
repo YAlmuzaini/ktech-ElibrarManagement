@@ -1,8 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebApplication1.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="~/home.aspx.cs" Inherits="WebApplication1.WebForm1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
     <!-- navigation bar -->
     <div class="card-header pb-0">
         <nav
@@ -71,20 +72,20 @@
                         aria-selected="false"
                         class="nav-item nav-link">Rules & Policy</a>
                     <a
-                        href="#AskLib"
+                        href="#AskLibrarian"
                         role="tab"
-                        aria-controls="AskLib"
+                        aria-controls="AskLibrarian"
                         aria-selected="false"
                         class="nav-item nav-link">Ask Me!</a>
                 </div>
                 <div class="nav nav-pills ml-auto">
                     <div
-                        class="d-none d-lg-block nav-item active px-5 px-md-1 px-sm-4 mt-xl-0 mt-lg-3 rounded gmd-1 p-1">
-                        <asp:LinkButton CssClass="text-dark" ID="LinkButton1" runat="server">
+                        class="d-none d-lg-block nav-item active px-5 px-md-1 px-sm-4 mt-xl-0 mt-lg-3 font-italic rounded gmd-1 p-1 btn btn-secondary">
+                        <asp:LinkButton CssClass="text-white" ID="LinkButton1" runat="server">
                             <img class="pb-1" src="img/o365.png" alt="office 365 login" />
                         Office login
                         </asp:LinkButton>
-                        <asp:LinkButton CssClass="text-dark" ID="LinkButton4" runat="server">
+                        <asp:LinkButton CssClass="text-white" ID="LinkButton4" runat="server">
                         Hello user
                         </asp:LinkButton>
                     </div>
@@ -200,7 +201,7 @@
                         data-toggle="collapse"
                         href="#collapseExample2"
                         aria-expanded="false"
-                        aria-controls="collapseExample"></a>
+                        aria-controls="collapseExample2"></a>
                 </div>
 
                 <div class="module">
@@ -260,7 +261,7 @@
                         data-toggle="collapse"
                         href="#collapseExample3"
                         aria-expanded="false"
-                        aria-controls="collapseExample"></a>
+                        aria-controls="collapseExample3"></a>
                 </div>
             </div>
 
@@ -412,9 +413,9 @@
 
             <div
                 class="tab-pane"
-                id="AskLib"
+                id="AskLibrarian"
                 role="tabpanel"
-                aria-labelledby="AskLib-tab">
+                aria-labelledby="AskLibrarian-tab">
                 <p class="card-text">Ask the librarian</p>
                 <a href="#" class="card-link text-danger">Read more</a>
             </div>
@@ -427,7 +428,6 @@
             $(this).tab('show')
         })
 
-
         $('#myTest').on('shown.bs.collapse', function (e) {
             var parent = document.getElementById("bologna-list");
             $(parent).removeClass('nav-tabs card-header-tab').addClass('navbar-nav mr-auto pl-3');
@@ -439,6 +439,4 @@
             $('.navbar-collapse').collapse('hide');
         });
     </script>
-
-
 </asp:Content>
