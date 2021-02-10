@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>ktech library</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <%--Bootstrap css--%>
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <%--datatable css--%>
+    <link href="dataTable/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <%--fontawosome css--%>
+    <link href="fontawosome/css/all.css" rel="stylesheet" />
+    <%--my theme css--%>
+    <link href="theme/css/theme.css" rel="stylesheet" />
+
+    <%--jquery--%>
+    <script src="Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <%--popper js--%>
+    <script src="Bootstrap/js/popper.min.js"></script>
+    <%--bootstrap js--%>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link runat="server" rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 mx-auto">
+            <div style="border-radius: 20px" class="card my-5 gmd-5">
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
