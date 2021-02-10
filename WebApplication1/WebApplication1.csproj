@@ -71,6 +71,8 @@
     <Content Include="Bootstrap\js\bootstrap.min.js" />
     <Content Include="Bootstrap\js\jquery-3.5.1.slim.min.js" />
     <Content Include="Bootstrap\js\popper.min.js" />
+    <Content Include="dataTable\css\jquery.dataTables.min.css" />
+    <Content Include="dataTable\js\jquery.dataTables.min.js" />
     <Content Include="fontawosome\attribution.js" />
     <Content Include="fontawosome\css\all.css" />
     <Content Include="fontawosome\css\all.min.css" />
@@ -1787,9 +1789,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="dataTable\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
