@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebApplication1.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="WebApplication1.WebForm1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -79,12 +79,12 @@
                 </div>
                 <div class="nav nav-pills ml-auto">
                     <div
-                        class="d-none d-lg-block nav-item active px-5 px-md-1 px-sm-4 mt-xl-0 mt-lg-3 rounded gmd-1 p-1">
-                        <asp:LinkButton CssClass="text-dark" ID="LinkButton1" runat="server">
+                        class="d-none d-lg-block nav-item active px-5 px-md-1 px-sm-4 mt-xl-0 mt-lg-3 font-italic rounded gmd-1 p-1 btn btn-secondary">
+                        <asp:LinkButton CssClass="text-white" ID="LinkButton1" runat="server">
                             <img class="pb-1" src="img/o365.png" alt="office 365 login" />
                         Office login
                         </asp:LinkButton>
-                        <asp:LinkButton CssClass="text-dark" ID="LinkButton4" runat="server">
+                        <asp:LinkButton CssClass="text-white" ID="LinkButton4" runat="server">
                         Hello user
                         </asp:LinkButton>
                     </div>
@@ -422,6 +422,7 @@
     </div>
 
     <script>
+        //for header section
         $('#bologna-list a').on('click', function (e) {
             e.preventDefault()
             $(this).tab('show')
