@@ -113,6 +113,7 @@
                             <div class="nav nav-pills ml-auto">
                                 <div
                                     class="d-none d-lg-block nav-item active px-5 px-md-1 px-sm-4 mt-xl-0 mt-lg-3 font-italic rounded gmd-1 p-1 btn btn-secondary">
+                                    <%--href="login.aspx"--%>
                                     <asp:LinkButton Style="text-decoration: none" CssClass="text-white" ID="LinkButton1" runat="server">
                             <img class="pb-1" src="img/o365.png" alt="office 365 login" />
                         Office login
@@ -125,9 +126,11 @@
                         </div>
                     </nav>
                 </div>
-                <div>
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                    </asp:ContentPlaceHolder>
+                <div class="card-body card-img-test p-lg-5 p-md-5">
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
                 </div>
             </div>
         </div>
