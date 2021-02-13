@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="WebApplication1.WebForm1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script src="theme/js/theme.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="card-body card-img-test p-lg-5 p-md-5">
@@ -323,34 +324,12 @@
 
             <div
                 class="tab-pane"
-                id="AskLib"
+                id="AskLibrarian"
                 role="tabpanel"
-                aria-labelledby="AskLib-tab">
+                aria-labelledby="AskLibrarian-tab">
                 <p class="card-text">Ask the librarian</p>
                 <a href="#" class="card-link text-danger">Read more</a>
             </div>
         </div>
     </div>
-
-    <script>
-        //for header section
-        $('#bologna-list a').on('click', function (e) {
-            e.preventDefault()
-            $(this).tab('show')
-        })
-
-
-        $('#myTest').on('shown.bs.collapse', function (e) {
-            var parent = document.getElementById("bologna-list");
-            $(parent).removeClass('nav-tabs card-header-tab').addClass('navbar-nav mr-auto pl-3');
-        }).on('hidden.bs.collapse', function (e) {
-            $(parent).addClass('nav-tabs card-header-tabs').removeClass('navbar-nav mr-auto pl-3');
-        })
-
-        $('.nav-tabs>a').on('click', function () {
-            $('.navbar-collapse').collapse('hide');
-        });
-    </script>
-
-
 </asp:Content>

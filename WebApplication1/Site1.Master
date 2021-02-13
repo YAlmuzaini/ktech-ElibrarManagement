@@ -18,7 +18,6 @@
     <%--my theme css--%>
     <link href="theme/css/theme.css" rel="stylesheet" />
 
-
     <%--jquery--%>
     <script src="Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
     <%--popper js--%>
@@ -105,9 +104,9 @@
                                     aria-selected="false"
                                     class="nav-item nav-link">Rules & Policy</a>
                                 <a
-                                    href="#AskLib"
+                                    href="#AskLibrarian"
                                     role="tab"
-                                    aria-controls="AskLib"
+                                    aria-controls="AskLibrarian"
                                     aria-selected="false"
                                     class="nav-item nav-link">Ask Me!</a>
                             </div>
