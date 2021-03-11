@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace WebApplication1
 {
@@ -11,7 +6,34 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+        }
 
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            string searchBarValue = searchBar.Text;
+            string MsgText = "";
+
+            if (searchBarValue == null || searchBarValue == "")
+            {
+                MsgText += "Fill the Search bar before proceeding.</br>";
+            }
+            else
+            {
+                //string libraryLink = "http://lis.k-tech.edu.kw/cgi-bin/koha/opac-search.pl?q=";
+
+                Response.Redirect("http://lis.k-tech.edu.kw/cgi-bin/koha/opac-search.pl?q=" + searchBarValue);
+                //Response.Write("<script>window.open('http://lis.k-tech.edu.kw/cgi-bin/koha/opac-search.pl?q=','_blank');</script>");
+
+                //Response.Write("<script>");
+                //Response.Write("window.open('http://lis.k-tech.edu.kw/cgi-bin/koha/opac-search.pl?q=','_blank')");
+                //Response.Write("</script>");
+
+            }
+
+            lblResultMessage.Text = searchBarValue;
+            lblResultMessage.Font.Bold = false;
+            lblResultMessage.Font.Size = 14;
+            lblResultMessage.ForeColor = System.Drawing.Color.Red;
         }
     }
 }

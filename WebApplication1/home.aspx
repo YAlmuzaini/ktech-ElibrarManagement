@@ -22,21 +22,19 @@
                     <br />
                     <div class="p-2 bg-light rounded rounded-pill shadow mb-4">
                         <div class="input-group">
-                            <input
-                                type="search"
+                            <asp:TextBox ID="searchBar" runat="server" type="search"
                                 placeholder="What are you searching for?"
                                 aria-describedby="button-addon1"
-                                class="form-control border-0 bg-light" />
+                                CssClass="form-control border-0 bg-light">
+                            </asp:TextBox>
+                            <%--<asp:RequiredFieldValidator ID="reqFirstValidationSearchBar" runat="server" ErrorMessage="Enter What you looking for" ForeColor="#FF3300" ControlToValidate="searchBar"></asp:RequiredFieldValidator>--%>
+
                             <div class="input-group-append">
-                                <button
-                                    id="button-addon1"
-                                    type="submit"
-                                    class="btn btn-link text-primary">
-                                    <i class="fa fa-search"></i>
-                                </button>
+                                <asp:LinkButton Style="text-decoration: none;" ID="submit" type="submit" runat="server" CssClass="btn btn-link text-primary fa fa-search" OnClick="btnSubmit_Click"></asp:LinkButton>
                             </div>
                         </div>
                     </div>
+                    <asp:Label ID="lblResultMessage" runat="server" Text=""></asp:Label>
                 </div>
                 <div class="my-5 p-5 d-block d-lg-none"></div>
                 <div class="col-lg-5 d-none d-lg-block p-lg-5 hover01">
@@ -181,8 +179,9 @@
             id="EResources"
             role="tabpanel"
             aria-labelledby="EResources-tab">
-            <p class="card-text">E-Resources</p>
-            <a href="#" class="card-link text-danger">Read more</a>
+            <h1 class="display-4 pb-1">ktech's E-Resources</h1>
+            <div>
+            </div>
         </div>
 
         <!-- Research Page -->
