@@ -109,6 +109,10 @@ body {
   color: #212e7e;
 }
 
+.fa-envelope {
+    color: #212e7e;
+}
+
 .keepColor {
   color: black;
 }
@@ -128,11 +132,22 @@ body {
   height: 3rem;
 }
 
-.module a.collapsed::after {
+.module div.collapse:not(.show) {
+    display: block;
+    height: 0rem;
+    overflow: hidden;
+}
+
+.module div.collapsing {
+    height: 3rem;
+}
+
+
+.module .readmore.collapsed::after {
   content: "+ Read more...";
 }
 
-.module a:not(.collapsed)::after {
+.module .readmore:not(.collapsed)::after {
   content: "- Read less...";
 }
 
@@ -153,4 +168,8 @@ body {
   content: "\f12a";
   margin: 0 10px 0 -28px;
   color: red;
+}
+
+li.borderless {
+    border: 0 none;
 }

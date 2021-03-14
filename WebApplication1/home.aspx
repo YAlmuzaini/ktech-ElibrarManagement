@@ -70,7 +70,7 @@
                 </p>
                 <a
                     role="button"
-                    class="collapsed"
+                    class="collapsed readmore"
                     data-toggle="collapse"
                     href="#collapseExample"
                     aria-expanded="false"
@@ -105,7 +105,7 @@
                 </p>
                 <a
                     role="button"
-                    class="collapsed"
+                    class="collapsed readmore"
                     data-toggle="collapse"
                     href="#collapseExample2"
                     aria-expanded="false"
@@ -165,7 +165,7 @@
                 </ul>
                 <a
                     role="button"
-                    class="collapsed"
+                    class="collapsed readmore"
                     data-toggle="collapse"
                     href="#collapseExample3"
                     aria-expanded="false"
@@ -180,7 +180,143 @@
             role="tabpanel"
             aria-labelledby="EResources-tab">
             <h1 class="display-4 pb-1">ktech's E-Resources</h1>
-            <div>
+            <div class="pl-1">
+                <h5 class="my-2" style="font-weight: bold; font-style: italic"><span class="fa fa-book px-1"></span>British Council Digital Library <a href="https://library.britishcouncil.org/cgi-bin/koha/opac-main.pl">Click Here</a> </h5>
+
+                <div class="module my-2">
+                    <h5 style="font-weight: bold; font-style: italic"><span class="fa fa-book px-1"></span>E-Books</h5>
+                    <p style="margin-bottom: 3px;">
+                        Click Read more to see a list of a selection of free eBook platforms. Although free downloading is available copyright terms still need to be observed
+                    </p>
+                    <div class="collapse" id="collapseExample4" aria-expanded="false">
+                        <div class="table-responsive">
+                            <table class="table-sm table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="pr-5">ebook name</th>
+                                        <th scope="col" class="pr-5">Link</th>
+                                        <th scope="col" class="pr-5">Access</th>
+                                        <th scope="col">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Directory of Open Access Books</th>
+                                        <td><a href="https://www.doabooks.org/" target="_blank">Click Here</a></td>
+                                        <td>Free</td>
+                                        <td>The primary aim of DOAB is to increase discoverability of Open Access books. Search, browse and download from a large selection of eBooks.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">eScholarship Editions</th>
+                                        <td><a href="https://www.ucpress.edu/blog/tag/escholarship-editions/" target="_blank">Click Here</a></td>
+                                        <td>Free</td>
+                                        <td>The collection includes over 2,000 eBooks from academic presses on a range of topics, including art, science, history, music, religion, and fiction. More than 500 of these are available for free download. Content is free for non-commercial use.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">InTechOpen</th>
+                                        <td><a href="https://www.intechopen.com/books" target="_blank">Click Here</a></td>
+                                        <td>Free</td>
+                                        <td>More than 2,400 books across engineering, physical sciences, life sciences, health sciences, and social sciences published under the <span><a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 license. </a></span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">OAPEN.org</th>
+                                        <td><a href="https://oapen.org/" target="_blank">Click Here</a></td>
+                                        <td>Free</td>
+                                        <td>OAPEN (Open Access Publishing in European Networks) is a collaborative initiative to develop and implement a sustainable Open Access publication model for academic books in the Humanities and Social Sciences. Nearly 1,000 free online titles available.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Online Books Page</th>
+                                        <td><a href="http://onlinebooks.library.upenn.edu/" target="_blank">Click Here</a></td>
+                                        <td>Free</td>
+                                        <td>Over 25,000 eBooks are available for free via this University of Pennsylvania website. Read the <span><a href="http://onlinebooks.library.upenn.edu/aboutolbp.html" target="_blank">Copyrights and Permissions information before downloading content. </a></span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Project Gutenberg</th>
+                                        <td><a href="https://www.gutenberg.org/" target="_blank">Click Here</a></td>
+                                        <td>Free</td>
+                                        <td>More than 20,000 free full text eBooks available on a range of topics. Download <span><a href="http://www.gutenberg.org/policy/permission.html" target="_blank">terms and conditions.</a></span> </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br />
+                        </div>
+                    </div>
+                    <a
+                        role="button"
+                        class="collapsed readmore"
+                        data-toggle="collapse"
+                        href="#collapseExample4"
+                        aria-expanded="false"
+                        aria-controls="collapseExample"></a>
+                </div>
+
+                <div class="module my-2">
+                    <h5 style="font-weight: bold; font-style: italic"><span class="fa fa-book px-1"></span>E-Journals</h5>
+                    <p style="margin-bottom: 3px;">
+                        Click Read more to see a list of a selection of free E-Journals. Although free downloading is available copyright terms still need to be observed
+                    </p>
+                    <div class="collapse" id="collapseExample5" aria-expanded="false">
+                        <div class="table-responsive">
+                            <table class="table-sm table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="pr-5">ebook name</th>
+                                        <th scope="col" class="pr-5">Link</th>
+                                        <th scope="col" class="pr-5">Access</th>
+                                        <th scope="col">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Directory of Open Access Journals</th>
+                                        <td><a href="https://www.doaj.org/" target="_blank">Click Here</a></td>
+                                        <td>Free</td>
+                                        <td>Full-text of over 2,000 scholarly and scientific journals in areas including Biology and Life Sciences; Business and Economics; Earth and Environmental Sciences; Health Sciences; Social Sciences; and Technology and Engineering.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Find Articles</th>
+                                        <td><a href="http://www.findarticles.com/" target="_blank">Click Here</a></td>
+                                        <td>Free</td>
+                                        <td>Search for articles from leading academic, industry and general interest publications.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">HighWire Press</th>
+                                        <td><a href="https://www.highwirepress.com/" target="_blank">Click Here</a></td>
+                                        <td>Free</td>
+                                        <td>Over 200 free online journals available in a variety of topics. </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Open Science Directory</th>
+                                        <td><a href="https://opensciencedirectory.iode.org/" target="_blank">Click Here</a></td>
+                                        <td>Free</td>
+                                        <td>About 13,000 scientific journals available now. Once all the special program journals are included, the Directory will contain more than 20,000 titles. The service includes collections of Open Access journals (e.g. DOAJ) and journals in the special programs (Hinari, Agora, OARE).</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Persée</th>
+                                        <td><a href="https://www.persee.fr/" target="_blank">Click Here</a></td>
+                                        <td>Free</td>
+                                        <td>Persée provides free access to scientific journals and proceedings in French.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">SciELO</th>
+                                        <td><a href="https://scielo.org/index.php?lang=en" target="_blank">Click Here</a></td>
+                                        <td>Free</td>
+                                        <td>The Scientific Electronic Library Online. Free access to online journals from Brazil, Chile, Cuba and Spain.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br />
+                        </div>
+                    </div>
+                    <a
+                        role="button"
+                        class="collapsed readmore"
+                        data-toggle="collapse"
+                        href="#collapseExample5"
+                        aria-expanded="false"
+                        aria-controls="collapseExample"></a>
+                </div>
+
             </div>
         </div>
 
@@ -190,8 +326,29 @@
             id="Research"
             role="tabpanel"
             aria-labelledby="Research-tab">
-            <p class="card-text">Research</p>
-            <a href="#" class="card-link text-danger">Read more</a>
+            <h1 class="display-4">Research</h1>
+            <ul
+                style="font-style: italic"
+                class="list-display list-checkmarks">
+                <li>
+                    <span style="font-weight: bold">One-to-one advice.</span>
+                    <br />
+                    Please let us know about your research interests. It may be that we have relevant material which isn't highlighted on the website, or know of something elsewhere that might help you.
+                </li>
+                <li>
+                    <span style="font-weight: bold">Community engagement and demonstrating impact.</span>
+                    <br />
+                    We can help by linking your research with external audiences, both locally and worldwide.
+                </li>
+                <li>
+                    <span style="font-weight: bold">Workshops.</span>
+                    <br />
+                    We offer workshops on our areas of expertise such as archival research and social media as part of Library and University programmes for researchers.
+                </li>
+                <li>
+                    <span style="font-weight: bold"><a href="https://researcheracademy.elsevier.com/">Elsevier Researcher Academy.</a></span>
+                </li>
+            </ul>
         </div>
 
         <!-- Services Page -->
@@ -200,8 +357,119 @@
             id="Services"
             role="tabpanel"
             aria-labelledby="Services-tab">
-            <p class="card-text">Services</p>
-            <a href="#" class="card-link text-danger">Read more</a>
+            <div class="module">
+                <h1 class="display-4">Circulation Service</h1>
+                <p class="collapse" id="collapseExample6" aria-expanded="false">
+                    Located at the main entrance of the library, the Circulation/Reserves Desk is the main service point for library services. Borrowing privileges are provided to all registered students and currently employed faculty and staff.
+                    A College ID card is required to check-out circulating materials. ID cards are issued by the College IT Department. Periodical issues, reference books and some audiovisual materials do not circulate outside the library.
+                </p>
+                <a
+                    role="button"
+                    class="collapsed readmore"
+                    data-toggle="collapse"
+                    href="#collapseExample6"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"></a>
+            </div>
+
+            <h1 class="display-4">Mission</h1>
+            <p class="card-text">
+                The mission of the ktech Library is to deliver accurate,
+                quality, and timely information, resources and innovative
+                services to its students, faculty, and staff in support of the
+                research, and academic missions of the College.
+            </p>
+
+            <div class="module">
+                <h1 class="display-4">Reference Section</h1>
+                <p class="collapse" id="collapseExample7" aria-expanded="false">
+                    The reference materials keep important resources that are strictly for “room use only” but can be photocopied upon the approval of the Librarian. Our collection is composed of the standard reference books, such as:
+                    <br />
+                    <span class="fas fa-hand-point-right"></span>Dictionaries: give information about words, spelling, pronunciation, derivation, usage, meanings, syllabication current status, synonyms, antonyms, historical information, etc.
+                    <br />
+                    <span class="fas fa-hand-point-right"></span>Encyclopedias: provide background information in all fields of knowledge.
+                    <br />
+                    <span class="fas fa-hand-point-right"></span>Yearbooks and Almanacs yearbooks are annual compendium of dates and statistics of a given year. Almanacs are annual publication of statistics and other information which usually cover information of the previous years.
+                    <br />
+                    <span class="fas fa-hand-point-right"></span>Biographical Sources: contain biographical sketches of information about the lives of important persons arranged alphabetically by surname.
+                    <br />
+                    <span class="fas fa-hand-point-right"></span>Handbooks & Manuals: are handy references that provide miscellaneous information about specific areas of interest and sources that contain instructions on how to do activities.
+                    <br />
+                    <span class="fas fa-hand-point-right"></span>Directories: are lists of names of persons or organizations to provide information such as addresses, telephone numbers, etc., usually arranged in alphabetical order.
+                    <br />
+                    <span class="fas fa-hand-point-right"></span>Vertical files consist of pamphlets and maps. These materials come from various sources.
+                    <br />
+                    <span class="fas fa-hand-point-right"></span>Research papers of students and other exams are also available in the Reference Section.
+                    <br />
+                </p>
+                <a
+                    role="button"
+                    class="collapsed readmore"
+                    data-toggle="collapse"
+                    href="#collapseExample7"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"></a>
+            </div>
+
+            <div class="module">
+                <h1 class="display-4">Computer and Internet Use</h1>
+                <p class="card-text">
+                    In order to carry out its mission, the ktech Library pursues
+                  several major goals:
+                </p>
+                <ul
+                    class="collapse list-inline"
+                    id="collapseExample8"
+                    aria-expanded="false">
+                    <li class="fas fa-book list-inline-item">
+                        <span class="keepColor">Provide current library materials and databases to support
+                      the academic curriculum and teaching programs.
+                        </span>
+                    </li>
+                    <li class="fas fa-book list-inline-item">
+                        <span class="keepColor">Collect library materials in all formats, widen and bring
+                      up-to-date collections to best serve the needs of ktech's
+                      programs and support the various aspects of the College.
+                        </span>
+                    </li>
+                    <li class="fas fa-book list-inline-item">
+                        <span class="keepColor">To educate library users about the services and resources
+                      offered by the library.
+                        </span>
+                    </li>
+                    <li class="fas fa-book list-inline-item">
+                        <span class="keepColor">To enhance library services, and to develop resource
+                      sharing arrangements to provide access to materials
+                      located in other libraries through national and
+                      international networks.
+                        </span>
+                    </li>
+                    <li class="fas fa-book list-inline-item">
+                        <span class="keepColor">To provide facilities and services that are competently
+                      organized, well equipped and maintained to facilitate the
+                      productivity of staff and library patrons.
+                        </span>
+                    </li>
+                    <li class="fas fa-book list-inline-item">
+                        <span class="keepColor">To hire and train friendly and qualified library staff to
+                      support its mission, vision and goals.
+                        </span>
+                    </li>
+                    <li class="fas fa-book list-inline-item">
+                        <span class="keepColor">To identify collections requiring development, e.g.
+                      resources in local and regional environment, culture,
+                      business, politics, and history.
+                        </span>
+                    </li>
+                </ul>
+                <a
+                    role="button"
+                    class="collapsed readmore"
+                    data-toggle="collapse"
+                    href="#collapseExample8"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"></a>
+            </div>
         </div>
 
         <!-- Rules and policy Page -->
@@ -325,8 +593,16 @@
             id="AskLibrarian"
             role="tabpanel"
             aria-labelledby="AskLibrarian-tab">
-            <p class="card-text">Ask the librarian</p>
-            <a href="#" class="card-link text-danger">Read more</a>
+            <h1>Ask A Librarian</h1>
+            <p>We can help you remotely! Email us your inquiries at:</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item fas fa-envelope borderless">Liibrary@k-tech.edu.kw</li>
+                <li class="list-group-item fas fa-envelope borderless">k.Olanda@k-tech.edu.kw</li>
+                <li class="list-group-item fas fa-envelope">A.ahmed@k-tech.edu.kw</li>
+                <li class="list-group-item borderless"></li>
+                <li class="list-group-item fas fa-phone-alt borderless">+965 22285077</li>
+                <li class="list-group-item fas fa-phone-alt borderless">Ext.: 390/ 391</li>
+            </ul>
         </div>
     </div>
 </asp:Content>
