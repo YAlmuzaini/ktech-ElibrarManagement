@@ -109,7 +109,7 @@
                     data-toggle="collapse"
                     href="#collapseExample2"
                     aria-expanded="false"
-                    aria-controls="collapseExample"></a>
+                    aria-controls="collapseExample2"></a>
             </div>
 
             <div class="module">
@@ -169,7 +169,7 @@
                     data-toggle="collapse"
                     href="#collapseExample3"
                     aria-expanded="false"
-                    aria-controls="collapseExample"></a>
+                    aria-controls="collapseExample3"></a>
             </div>
         </div>
 
@@ -188,7 +188,7 @@
                     <p style="margin-bottom: 3px;">
                         Click Read more to see a list of a selection of free eBook platforms. Although free downloading is available copyright terms still need to be observed
                     </p>
-                    <div class="collapse" id="collapseExample4" aria-expanded="false">
+                    <div class="collapse show" id="collapseExample4" aria-expanded="true">
                         <div class="table-responsive">
                             <table class="table-sm table-bordered table-striped">
                                 <thead>
@@ -243,11 +243,12 @@
                     </div>
                     <a
                         role="button"
+                        id="collapsedAtag"
                         class="collapsed readmore"
                         data-toggle="collapse"
                         href="#collapseExample4"
-                        aria-expanded="false"
-                        aria-controls="collapseExample"></a>
+                        aria-expanded="true"
+                        aria-controls="collapseExample4"></a>
                 </div>
 
                 <div class="module my-2">
@@ -314,7 +315,7 @@
                         data-toggle="collapse"
                         href="#collapseExample5"
                         aria-expanded="false"
-                        aria-controls="collapseExample"></a>
+                        aria-controls="collapseExample5"></a>
                 </div>
 
             </div>
@@ -357,118 +358,87 @@
             id="Services"
             role="tabpanel"
             aria-labelledby="Services-tab">
-            <div class="module">
-                <h1 class="display-4">Circulation Service</h1>
-                <p class="collapse" id="collapseExample6" aria-expanded="false">
-                    Located at the main entrance of the library, the Circulation/Reserves Desk is the main service point for library services. Borrowing privileges are provided to all registered students and currently employed faculty and staff.
+            <h1 class="display-4 pb-1">ktech's Library Services</h1>
+            <div class="pl-3">
+                <div class="module">
+                    <h2>Circulation Service</h2>
+                    <p class="collapse" id="collapseExample6" aria-expanded="false" style="margin-bottom: 3px;">
+                        Located at the main entrance of the library, the Circulation/Reserves Desk is the main service point for library services. Borrowing privileges are provided to all registered students and currently employed faculty and staff.
                     A College ID card is required to check-out circulating materials. ID cards are issued by the College IT Department. Periodical issues, reference books and some audiovisual materials do not circulate outside the library.
-                </p>
-                <a
-                    role="button"
-                    class="collapsed readmore"
-                    data-toggle="collapse"
-                    href="#collapseExample6"
-                    aria-expanded="false"
-                    aria-controls="collapseExample"></a>
-            </div>
+                    </p>
+                    <a
+                        role="button"
+                        class="collapsed readmore"
+                        data-toggle="collapse"
+                        href="#collapseExample6"
+                        aria-expanded="false"
+                        aria-controls="collapseExample6"></a>
+                </div>
 
-            <h1 class="display-4">Mission</h1>
-            <p class="card-text">
-                The mission of the ktech Library is to deliver accurate,
-                quality, and timely information, resources and innovative
-                services to its students, faculty, and staff in support of the
-                research, and academic missions of the College.
-            </p>
+                <div class="module">
+                    <h2>Reference Section</h2>
+                    <p class="collapse" id="collapseExample7" aria-expanded="false" style="margin-bottom: 3px;">
+                        The reference materials keep important resources that are strictly for “room use only” but can be photocopied upon the approval of the Librarian. Our collection is composed of the standard reference books, such as:
+                    <br />
+                        <span class="fas fa-hand-point-right pr-2"></span>Dictionaries: give information about words, spelling, pronunciation, derivation, usage, meanings, syllabication current status, synonyms, antonyms, historical information, etc.
+                    <br />
+                        <span class="fas fa-hand-point-right pr-2"></span>Encyclopedias: provide background information in all fields of knowledge.
+                    <br />
+                        <span class="fas fa-hand-point-right pr-2"></span>Yearbooks and Almanacs yearbooks are annual compendium of dates and statistics of a given year. Almanacs are annual publication of statistics and other information which usually cover information of the previous years.
+                    <br />
+                        <span class="fas fa-hand-point-right pr-2"></span>Biographical Sources: contain biographical sketches of information about the lives of important persons arranged alphabetically by surname.
+                    <br />
+                        <span class="fas fa-hand-point-right pr-2"></span>Handbooks & Manuals: are handy references that provide miscellaneous information about specific areas of interest and sources that contain instructions on how to do activities.
+                    <br />
+                        <span class="fas fa-hand-point-right pr-2"></span>Directories: are lists of names of persons or organizations to provide information such as addresses, telephone numbers, etc., usually arranged in alphabetical order.
+                    <br />
+                        <span class="fas fa-hand-point-right pr-2"></span>Vertical files consist of pamphlets and maps. These materials come from various sources.
+                    <br />
+                        <span class="fas fa-hand-point-right pr-2"></span>Research papers of students and other exams are also available in the Reference Section.
+                    </p>
+                    <a
+                        role="button"
+                        class="collapsed readmore"
+                        data-toggle="collapse"
+                        href="#collapseExample7"
+                        aria-expanded="false"
+                        aria-controls="collapseExample7"></a>
+                </div>
 
-            <div class="module">
-                <h1 class="display-4">Reference Section</h1>
-                <p class="collapse" id="collapseExample7" aria-expanded="false">
-                    The reference materials keep important resources that are strictly for “room use only” but can be photocopied upon the approval of the Librarian. Our collection is composed of the standard reference books, such as:
-                    <br />
-                    <span class="fas fa-hand-point-right"></span>Dictionaries: give information about words, spelling, pronunciation, derivation, usage, meanings, syllabication current status, synonyms, antonyms, historical information, etc.
-                    <br />
-                    <span class="fas fa-hand-point-right"></span>Encyclopedias: provide background information in all fields of knowledge.
-                    <br />
-                    <span class="fas fa-hand-point-right"></span>Yearbooks and Almanacs yearbooks are annual compendium of dates and statistics of a given year. Almanacs are annual publication of statistics and other information which usually cover information of the previous years.
-                    <br />
-                    <span class="fas fa-hand-point-right"></span>Biographical Sources: contain biographical sketches of information about the lives of important persons arranged alphabetically by surname.
-                    <br />
-                    <span class="fas fa-hand-point-right"></span>Handbooks & Manuals: are handy references that provide miscellaneous information about specific areas of interest and sources that contain instructions on how to do activities.
-                    <br />
-                    <span class="fas fa-hand-point-right"></span>Directories: are lists of names of persons or organizations to provide information such as addresses, telephone numbers, etc., usually arranged in alphabetical order.
-                    <br />
-                    <span class="fas fa-hand-point-right"></span>Vertical files consist of pamphlets and maps. These materials come from various sources.
-                    <br />
-                    <span class="fas fa-hand-point-right"></span>Research papers of students and other exams are also available in the Reference Section.
-                    <br />
-                </p>
-                <a
-                    role="button"
-                    class="collapsed readmore"
-                    data-toggle="collapse"
-                    href="#collapseExample7"
-                    aria-expanded="false"
-                    aria-controls="collapseExample"></a>
-            </div>
-
-            <div class="module">
-                <h1 class="display-4">Computer and Internet Use</h1>
+                <h2>Reserve Section</h2>
                 <p class="card-text">
-                    In order to carry out its mission, the ktech Library pursues
-                  several major goals:
+                    <b>Reserve books</b> are materials set-aside either temporarily or permanently to accommodate high-use levels by patrons. 
+                <b>Reserve</b> materials may check-out for two hours loan period. One reserve book can be borrowed for one period and can 
+                be renewed for another period if not needed or reserved by other users.
                 </p>
-                <ul
-                    class="collapse list-inline"
-                    id="collapseExample8"
-                    aria-expanded="false">
-                    <li class="fas fa-book list-inline-item">
-                        <span class="keepColor">Provide current library materials and databases to support
-                      the academic curriculum and teaching programs.
-                        </span>
-                    </li>
-                    <li class="fas fa-book list-inline-item">
-                        <span class="keepColor">Collect library materials in all formats, widen and bring
-                      up-to-date collections to best serve the needs of ktech's
-                      programs and support the various aspects of the College.
-                        </span>
-                    </li>
-                    <li class="fas fa-book list-inline-item">
-                        <span class="keepColor">To educate library users about the services and resources
-                      offered by the library.
-                        </span>
-                    </li>
-                    <li class="fas fa-book list-inline-item">
-                        <span class="keepColor">To enhance library services, and to develop resource
-                      sharing arrangements to provide access to materials
-                      located in other libraries through national and
-                      international networks.
-                        </span>
-                    </li>
-                    <li class="fas fa-book list-inline-item">
-                        <span class="keepColor">To provide facilities and services that are competently
-                      organized, well equipped and maintained to facilitate the
-                      productivity of staff and library patrons.
-                        </span>
-                    </li>
-                    <li class="fas fa-book list-inline-item">
-                        <span class="keepColor">To hire and train friendly and qualified library staff to
-                      support its mission, vision and goals.
-                        </span>
-                    </li>
-                    <li class="fas fa-book list-inline-item">
-                        <span class="keepColor">To identify collections requiring development, e.g.
-                      resources in local and regional environment, culture,
-                      business, politics, and history.
-                        </span>
-                    </li>
-                </ul>
-                <a
-                    role="button"
-                    class="collapsed readmore"
-                    data-toggle="collapse"
-                    href="#collapseExample8"
-                    aria-expanded="false"
-                    aria-controls="collapseExample"></a>
+
+                <div class="module">
+                    <h1>Computer and Internet Use</h1>
+                    <p class="collapse" id="collapseExample8" aria-expanded="false" style="margin-bottom: 3px;">
+                        The ktech Library provides access to computers and makes internet resources accessible to all customers as part of the library services commitment to supporting the information needs of the ktech Community.
+                    The internet is a vast and unregulated information network which offers unlimited access to a wide variety of resources. The library cannot monitor an individual’s use of the internet.
+                    The library supplies 20 computers for student use. 
+                    The user is required to use their username and password provided by the IT Department to log in.
+
+                    </p>
+                    <a
+                        role="button"
+                        class="collapsed readmore"
+                        data-toggle="collapse"
+                        href="#collapseExample8"
+                        aria-expanded="false"
+                        aria-controls="collapseExample8"></a>
+                </div>
+
+                <h2>Current Awareness</h2>
+                <p class="card-text">
+                    Current Awareness helps the K-TECH Community to stay up-to-date regarding the library. These services are concerned with the preparation of lists of newly acquired and processed books by the library which are disseminated to the academic departments for their information.
+                </p>
+
+                <h2>Acquisition Section</h2>
+                <p class="card-text">
+                    The Acquisitions Section is responsible for the selection and purchase of materials or resources.
+                </p>
             </div>
         </div>
 
@@ -596,12 +566,12 @@
             <h1>Ask A Librarian</h1>
             <p>We can help you remotely! Email us your inquiries at:</p>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item fas fa-envelope borderless">Liibrary@k-tech.edu.kw</li>
-                <li class="list-group-item fas fa-envelope borderless">k.Olanda@k-tech.edu.kw</li>
-                <li class="list-group-item fas fa-envelope">A.ahmed@k-tech.edu.kw</li>
+                <li class="list-group-item borderless"><span class="fas fa-envelope pr-1"></span>Liibrary@k-tech.edu.kw</li>
+                <li class="list-group-item borderless"><span class="fas fa-envelope pr-1"></span>k.Olanda@k-tech.edu.kw</li>
+                <li class="list-group-item"><span class="fas fa-envelope pr-1"></span>A.ahmed@k-tech.edu.kw</li>
                 <li class="list-group-item borderless"></li>
-                <li class="list-group-item fas fa-phone-alt borderless">+965 22285077</li>
-                <li class="list-group-item fas fa-phone-alt borderless">Ext.: 390/ 391</li>
+                <li class="list-group-item borderless"><span class="fas fa-phone-alt pr-1"></span>+965 22285077</li>
+                <li class="list-group-item borderless"><span class="fas fa-phone-alt pr-1"></span>Ext.: 390/ 391</li>
             </ul>
         </div>
     </div>

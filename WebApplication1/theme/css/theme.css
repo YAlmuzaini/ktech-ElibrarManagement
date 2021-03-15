@@ -113,8 +113,12 @@ body {
     color: #212e7e;
 }
 
+.fa-hand-point-right {
+    color: #212e7e;
+}
+
 .keepColor {
-  color: black;
+    color: black;
 }
 
 .module {
@@ -141,7 +145,6 @@ body {
 .module div.collapsing {
     height: 3rem;
 }
-
 
 .module .readmore.collapsed::after {
   content: "+ Read more...";
